@@ -169,7 +169,7 @@ h3 {
 
 h1 {
   font-size: clamp(2rem, 5vw, 3.6rem);
-  max-width: 60ch;
+  max-width: 80ch;
   color: var(--gold-soft);
   text-wrap: balance;
 }
