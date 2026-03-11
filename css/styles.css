@@ -157,7 +157,6 @@ a {
 .hero-section {
   padding-top: 2.8rem;
   animation: enter-up 0.8s ease both;
-  max-wight: 100ch
 }
 
 h1,
@@ -170,9 +169,8 @@ h3 {
 
 h1 {
   font-size: clamp(2rem, 5vw, 3.6rem);
-  max-width: 100ch;
+  max-width: 90ch;
   color: var(--gold-soft);
-  text-wrap: balance;
 }
 
 .feature-section {
