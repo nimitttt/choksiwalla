@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Detailed view of Choksiwala Jewellers gallery image." />
+  <title>Choksiwala Jewellers | Image View</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body data-page="image">
+  <div class="animated-blobs" aria-hidden="true">
+    <span class="blob blob-1"></span>
+    <span class="blob blob-2"></span>
+    <span class="blob blob-3"></span>
+  </div>
+
+  <div id="siteShell">
+    <header class="site-header" data-testid="global-site-header">
+      <a href="index.html" class="brand-logo-link" data-testid="header-logo-link" aria-label="Choksiwala Jewellers home">
+        <img src="assets/cj-logo.jpg" alt="Choksiwala Jewellers logo" class="brand-logo" data-testid="header-logo-image" />
+      </a>
+      <div class="header-actions">
+        <a href="https://maps.app.goo.gl/mz2p2JyqQ6dCRVYf6" target="_blank" rel="noopener noreferrer" class="icon-button" data-testid="google-maps-link" aria-label="Open store location on Google Maps">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.2c-4.1 0-7.4 3.3-7.4 7.4 0 5.5 7.4 12.2 7.4 12.2s7.4-6.7 7.4-12.2c0-4.1-3.3-7.4-7.4-7.4zm0 10.1c-1.5 0-2.7-1.2-2.7-2.7S10.5 6.9 12 6.9s2.7 1.2 2.7 2.7-1.2 2.7-2.7 2.7z" /></svg>
+        </a>
+        <button type="button" class="icon-button" id="menuToggle" data-testid="header-menu-toggle-button" aria-label="Open navigation menu" aria-expanded="false">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" /></svg>
+        </button>
+      </div>
+    </header>
+
+    <main class="page-content" data-testid="image-page-content">
+      <section class="image-view-wrap" data-testid="gallery-image-view-section">
+        <a href="gallery.html" class="back-link" data-testid="image-view-back-link">← Back to Gallery</a>
+        <figure class="image-view-card" data-testid="image-view-card">
+          <div class="image-frame" data-testid="image-view-image-frame">
+            <img id="mainImage" src="" alt="Jewellery showcase" data-testid="image-view-main-image" />
+          </div>
+          <figcaption id="mainDescription" class="image-description" data-testid="image-view-description-text"></figcaption>
+        </figure>
+      </section>
+    </main>
+  </div>
+
+  <div class="menu-overlay" id="menuOverlay" data-testid="global-menu-overlay" aria-hidden="true">
+    <nav class="menu-panel" data-testid="global-menu-panel" aria-label="Site navigation">
+      <button type="button" id="menuClose" class="menu-close" data-testid="global-menu-close-button" aria-label="Close menu">×</button>
+      <a href="index.html" data-testid="menu-link-home">Home</a>
+      <a href="gallery.html" data-testid="menu-link-gallery">Gallery</a>
+      <a href="disclaimer.html" data-testid="menu-link-disclaimer">Disclaimer</a>
+      <a href="privacy.html" data-testid="menu-link-privacy-policy">Privacy Policy</a>
+      <a href="contact.html" data-testid="menu-link-contact">Contact</a>
+    </nav>
+  </div>
+
+  <script src="js/gallery-data.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/image-view.js"></script>
+</body>
+</html>
