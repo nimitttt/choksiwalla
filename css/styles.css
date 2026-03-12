@@ -154,7 +154,6 @@ a {
 }
 
 .hero-section {
-  padding-top: 0.8rem;
   animation: enter-up 0.8s ease both;
 }
 
@@ -509,7 +508,7 @@ textarea:focus {
 @keyframes enter-up {
   from {
     opacity: 0;
-    transform: translateY(4px);
+    transform: translateY(14px);
   }
   to {
     opacity: 1;
