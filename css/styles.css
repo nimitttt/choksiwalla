@@ -554,3 +554,7 @@ textarea:focus {
     padding-top: 0.8rem
   }
 }
+
+.feature-grid:empty {
+  display: none;
+}
