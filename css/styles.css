@@ -154,7 +154,7 @@ a {
 }
 
 .hero-section {
-  padding-top: 1rem;
+  padding-top: 0.8rem;
   animation: enter-up 0.8s ease both;
 }
 
@@ -528,7 +528,7 @@ textarea:focus {
   }
 
   .hero-section {
-    padding-top: 1.5rem;
+    padding-top: 0.8rem;
   }
 
   .feature-grid {
