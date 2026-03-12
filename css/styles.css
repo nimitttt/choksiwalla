@@ -154,6 +154,7 @@ a {
 
 .hero-section {
   animation: enter-up 0.8s ease both;
+  padding-bottom: 2rem;
 }
 
 h1,
