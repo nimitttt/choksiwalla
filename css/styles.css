@@ -86,6 +86,7 @@ a {
 }
 
 .site-header {
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -106,10 +107,8 @@ a {
 
 .brand-logo {
   width: 3rem;
-  height: 3rem;
-  border-radius: 50%;
-  border: 1px solid rgba(212, 175, 55, 0.3);
-  object-fit: cover;
+  height: auto;
+  object-fit: contain;
 }
 
 .header-actions {
@@ -149,7 +148,7 @@ a {
 .page-content {
   width: min(1150px, 92vw);
   margin: 0 auto;
-  padding-top: 1.5rem;
+  padding-top: 1rem;
   padding-bottom: 4rem;
 }
 
@@ -523,7 +522,7 @@ textarea:focus {
 
   .brand-logo {
     width: 3.4rem;
-    height: 3.4rem;
+    height: auto;
   }
 
   .hero-section {
