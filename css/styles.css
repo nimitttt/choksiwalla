@@ -558,3 +558,11 @@ textarea:focus {
 .feature-grid:empty {
   display: none;
 }
+
+.hero-section {
+  padding-top: 0.2rem;
+}
+
+.hero-section h1 {
+  margin-top: 0;
+}
