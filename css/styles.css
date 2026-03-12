@@ -93,10 +93,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top:    0.75rem
-  padding-bottom: 0.5rem
-  padding-left:   1.2rem
-  padding-right:  1.2rem
+  padding: 0.75rem 1.2rem;
   background: rgba(5, 5, 5, 0.72);
   backdrop-filter: blur(12px);
   border-bottom: 1px solid rgba(212, 175, 55, 0.18);
