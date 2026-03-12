@@ -545,11 +545,13 @@ textarea:focus {
   .contact-grid {
     grid-template-columns: 1.2fr 1fr;
     gap: 1.4rem;
+    padding-top: 1.5rem
   }
 
   .policy-card,
   .contact-form-card,
   .contact-info-card {
     padding: 1.6rem;
+    padding-top: 1.5rem
   }
 }
