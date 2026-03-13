@@ -328,11 +328,17 @@ h1 {
   gap: 1rem;
 }
 
-.contact-image-area img {
+.contact-info-image {
   width: 100%;
-  max-height: 180px;
-  object-fit: cover;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
   border-radius: 0.8rem;
+}
+
+.contact-info-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 label {
