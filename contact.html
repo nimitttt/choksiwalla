@@ -35,26 +35,41 @@
     <main class="page-content" data-testid="contact-page-content">
       <section class="contact-grid" data-testid="contact-two-column-layout">
         <div class="contact-form-card" data-testid="contact-form-card">
-          <h1 data-testid="contact-heading">Contact</h1>
-          <form id="contactForm" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" data-testid="contact-netlify-form">
-            <input type="hidden" name="form-name" value="contact" />
-            <p class="hidden-field">
-              <label>Don’t fill this out if you’re human: <input name="bot-field" data-testid="contact-bot-field" /></label>
-            </p>
 
-            <label for="name" data-testid="contact-name-label">Name</label>
-            <input id="name" name="name" type="text" required data-testid="contact-name-input" />
+  <div class="contact-card-layout">
 
-            <label for="email" data-testid="contact-email-label">Email</label>
-            <input id="email" name="email" type="email" required data-testid="contact-email-input" />
+    <div class="contact-form-area">
 
-            <label for="message" data-testid="contact-message-label">Query / Message</label>
-            <textarea id="message" name="message" rows="4" required data-testid="contact-message-input"></textarea>
+      <h1 data-testid="contact-heading">Contact</h1>
 
-            <button type="submit" class="send-button" data-testid="contact-send-button">Send</button>
-            <p id="formStatus" class="form-status" data-testid="contact-form-status-message" aria-live="polite"></p>
-            <p class="form-help-note" data-testid="contact-form-netlify-note">Netlify Forms success confirmation will appear after deploying this site on Netlify.</p>
-          </form>
+      <form id="contactForm" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" data-testid="contact-netlify-form">
+        <input type="hidden" name="form-name" value="contact" />
+
+        <p class="hidden-field">
+          <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
+        </p>
+
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" required />
+
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" required />
+
+        <label for="message">Query / Message</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit" class="send-button">Send</button>
+
+      </form>
+
+    </div>
+
+    <div class="contact-image-area">
+      <img src="assets/contact-image.jpg" alt="Jewellery craftsmanship">
+    </div>
+
+  </div>
+
         </div>
 
         <aside class="contact-info-card" data-testid="contact-info-card">
