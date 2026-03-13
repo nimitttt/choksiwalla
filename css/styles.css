@@ -333,6 +333,7 @@ h1 {
   aspect-ratio: 4 / 3;
   overflow: hidden;
   border-radius: 0.8rem;
+  margin-top: 0.8rem;
 }
 
 .contact-info-image img {
